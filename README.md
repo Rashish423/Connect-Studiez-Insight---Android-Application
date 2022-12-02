@@ -1,0 +1,2 @@
+# Connect-Studiez-Insight---Android-Application
+This project is basically for the college management system which will be helpful to students &amp; staff of the college, as various administrative &amp; academic work will be effectively managed. Java is used for the backend development, frontend &amp; UI is developed by .XML and Photoshop and Firebase database for this project used real-time database.
