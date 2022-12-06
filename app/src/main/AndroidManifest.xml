@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:meta-dataandroid="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.connectstudiezinsight">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".PushApp"
+        android:allowBackup="true"
+        android:icon="@drawable/connect_studiez_insight"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConnectStudiezInsight">
+        <activity android:name=".StudentAdminPdfs.DocsPdf"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".StudentDashboard.ViewDocs"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".StudentDashboard.Edit_Student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Remove_Admin_Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Edit_Admin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Remove_Student_Account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_Events"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".MyIdService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <activity
+            android:name=".StudentAdmin.ViewEvents"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ebook_Notes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.aEbook_Notes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM5_Notes.Upload_CG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM5_Notes.Upload_OOP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM5_Notes.Upload_DAA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM5_Notes.Upload_DCOMM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM5_Notes.Upload_DBMS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM4_Notes.Upload_DSPD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM4_Notes.Upload_OS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM4_Notes.Upload_SP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM4_Notes.Upload_DMGT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM4_Notes.Upload_TFCS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM7_Notes.Upload_TCPIP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM7_Notes.Upload_MC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM7_Notes.Upload_SA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM7_Notes.Upload_LP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM7_Notes.Upload_DWM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM8_Notes.Upload_CCC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM8_Notes.Upload_ICS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM8_Notes.Upload_SCT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM8_Notes.Upload_DF"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM8_Notes.Upload_DOS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem5.View_CG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem5.View_DCOMM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem5.View_DBMS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem5.View_DAA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem5.View_OOP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem3.View_M3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem3.View_ACPLD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem3.View_DCFM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem3.View_CAO"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem3.View_EIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem4.View_DMGT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem4.View_DSPD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem4.View_OS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem4.View_SP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem4.View_TFCS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem7.View_DWM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem7.View_LP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem7.View_MC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem7.View_SA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem7.View_TCPIP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem8.View_CCC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem8.View_DF"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem8.View_DOS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem8.View_ICS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_NotesSem8.View_SCT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem3.ACPLD_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem3.CAO_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem3.DCFM_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem3.EIT_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem3.M3_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem4.DMGT_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem4.DSPD_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem4.OS_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem4.SP_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem4.TFCS_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem7.DWM_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem7.LP_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem7.MC_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem7.SA_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem7.TCPIP_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem8.CCC_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem8.DF_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem8.DOS_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem8.ICS_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem8.SCT_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem5.DBMS_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem5.DAA_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem5.CG_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem5.DCOMM_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem5.OOP_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Student_Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem6.SEPM_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem6.FE_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem6.CN_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Notes.View_NotesSem6.View_FE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Notes.View_NotesSem6.View_SEPM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Notes.View_NotesSem6.View_CN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM6_Notes.Upload_CN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM6_Notes.Upload_SEPM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM6_Notes.Upload_FE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM3_Notes.Upload_M3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM3_Notes.Upload_DCFM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM3_Notes.Upload_ACPLD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM3_Notes.Upload_CAO"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM3_Notes.Upload_EIT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem6.AI_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Notes.View_NotesSem6.View_AI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM6_Notes.Upload_AI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.sem6.DP_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminSemester"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Semesters.SEM3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Semesters.Semester3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.StudentSemester"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Result_put"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Result_ut2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Result_ut1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_TimeTable_put"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.RPUT_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.RUT2_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.RUT1_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.TTPUT_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.TTUT2_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_TimeTable_ut2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdminPdfs.TTUT1_pdf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_TimeTable_ut1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminTimeTablePUT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminResultPUT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminResultUT2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminResultUT1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminTimeTableUT2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.AdminTimeTableUT1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_TimeTable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_Result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.View_Notes.View_NotesSem6.View_DP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Upload_SEM6_Notes.Upload_DP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inside_Question_paper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.View_Anonyomus_Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View_Suggestions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Inside_Anonymous_Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Inside_Known_Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Inside_Suggestion_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Inside_Feedback_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Create_Admin_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_LogIn_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDashboard.Admin_verification_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.RTMNU_TimeTable_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.RTMNU_result_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.InsideExamTimeTable_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.InsideResult_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.ViewUplaodedDocs_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.UploadDocs_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentAdmin.Splash_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentAdmin.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Log_In_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Sign_Up_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentDashboard.Homepage_Activity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".MyMessagingServices"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+            //for this file_path create new xml file in res:file_path.xml
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
