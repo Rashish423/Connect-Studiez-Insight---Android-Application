@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049232978532",
+    "project_id": "connect-studiez-insight-38d0d",
+    "storage_bucket": "connect-studiez-insight-38d0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049232978532:android:e536e8bed63919a63d6571",
+        "android_client_info": {
+          "package_name": "com.example.connectstudiezinsight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049232978532-cnp8td1v34d6nnbpc3pgs32icbmhlub9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQRPd9AdDSZ5Kbk1gkB-51gTYTrEY06I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049232978532-cnp8td1v34d6nnbpc3pgs32icbmhlub9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
